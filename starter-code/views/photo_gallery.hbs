@@ -1,0 +1,7 @@
+    {{!-- <h2>Photo Gallery</h2> --}}
+<div id="container">
+    {{#each this}}
+    {{!-- <h4> {{ this.id }}  the {{ this.title }} </h4> --}}
+    <img id="img" src=" {{ this.image }}" alt=" {{ this.title }}">
+    {{/each}}
+</div>
