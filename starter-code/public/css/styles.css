@@ -18,6 +18,15 @@ a {
     list-style-type: none;
 } */
 
+form {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.5;
+}
+form label:first-of-type {
+    padding: 0;
+}
 
 
 /* --- id's ---*/
@@ -58,21 +67,48 @@ a {
 #main_container h2 {
     display: flex;
     justify-content: center;
-    /* margin-top: 10px; */
     width: 100%;
 }
 #container {
     display: grid;
-    grid-template-columns: 33% 33% 33%;
-    grid-template-rows: 1fr 1fr 1fr;
     grid-column-gap: 10px;
     grid-row-gap: 2%;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin: 10px auto;
     width:80%;
-    margin: 0 auto;
 }
 #img {
-    max-width: 180px;
     height: auto;
+    max-width: 180px;
+}
+
+#photo_div {
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 30px 70px;
+    max-width: 90%;
+}
+#photo_div h2 {
+    padding-bottom: 10px;
+}
+#subject {
+    border-radius: 5px;
+    height: 100px;
+    margin: 10px 0;
+    padding: 5px 10px;
+    width: 650px;
+    font-family: 'Special Elite', cursive;
+}
+#btn {
+    background-color: darkgrey;
+    border-radius: 5px;
+    height: 35px;
+    width: 100px;
+    font-family: 'Special Elite', cursive;
+    font-size: 16px;
+    margin-top: 10px;
+    padding: 10px;
 }
 
 
@@ -80,3 +116,28 @@ a {
 .link {
     padding-left: 20px;
 }
+
+.form_lable {
+    padding-top: 15px;
+    font-family: 'Special Elite', cursive;
+}
+.form_input {
+    padding: 5px 10px;
+    width: 350px;
+    border-radius: 8px;
+    font-family: 'Special Elite', cursive;
+}
+
+
+
+
+/* in the CSS: .movie-container{
+    padding-top:50px;
+    display:grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 2%;
+    width:80%;
+    margin: 0 auto;
+    } */

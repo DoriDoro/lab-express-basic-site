@@ -24,6 +24,9 @@ app.get("/photo_gallery", (req, res) => {
     res.render("photo_gallery", data);
 });
 
+app.get("/contact", (req, res) => {
+    res.render("contact");
+});
 
 
 const listener = app.listen(3050, () => {

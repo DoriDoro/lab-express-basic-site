@@ -1,4 +1,6 @@
 
-- display the title and the id at the photo_gallery file
+- display the title and the id at the photo_gallery file -- done
 - same size for the images
 - delete the 3 additional img symboles on the website at the photo gallery
+
+- new page with a contact form -- done

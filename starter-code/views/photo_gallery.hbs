@@ -1,7 +1,15 @@
-    {{!-- <h2>Photo Gallery</h2> --}}
-<div id="container">
-    {{#each this}}
-    {{!-- <h4> {{ this.id }}  the {{ this.title }} </h4> --}}
-    <img id="img" src=" {{ this.image }}" alt=" {{ this.title }}">
-    {{/each}}
+<div id="photo_div">
+    <h2 id="photo_title">photo gallery:</h2>
+    
+    <div id="container">
+        {{#each this}}
+        <div id="number_title">
+            <h4> {{ this.id }}  the {{ this.title }} </h4>
+
+            <div id="photo_img">
+            <img id="img" src=" {{ this.image }}" alt=" {{ this.title }}">
+            </div>
+        </div>
+        {{/each}}
+    </div>
 </div>
