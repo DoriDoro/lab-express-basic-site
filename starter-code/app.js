@@ -21,7 +21,7 @@ app.get("/about", (req, res) => {
 });
 
 app.get("/photo_gallery", (req, res) => {
-    res.render("photo_gallery", data);
+    res.render("photo_gallery", {data});
 });
 
 app.get("/contact", (req, res) => {

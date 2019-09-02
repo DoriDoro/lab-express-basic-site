@@ -9,6 +9,7 @@ html {
 body {
     background-color: aliceblue;
     font-family: 'Special Elite', cursive;
+    margin-bottom: 100px;
 }
 a {
     color: inherit;
@@ -86,6 +87,7 @@ form label:first-of-type {
 #photo_div {
     border: 1px solid;
     border-radius: 5px;
+    height: 1320px;
     padding: 30px 70px;
     max-width: 90%;
 }
